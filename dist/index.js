@@ -34494,7 +34494,7 @@ async function run() {
     };
 
     let url = util.format(
-      'https://circleci.com/api/v2/project/gh/%s/pipeline',
+      'https://circleci.com/api/v2/project/%s/pipeline',
       projectSlug
     );
 
